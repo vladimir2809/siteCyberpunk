@@ -1,0 +1,217 @@
+@font-face{
+    font-family: Archangelsk;
+    src: url(../fonts/Archangelsk.ttf);
+}
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+#headImg{
+    height: 1000px;
+}
+#divHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 952px;
+    height: 74px;
+    margin-top: -980px;
+    margin-left: 36px;
+}
+#divLogo{
+    width: 296px;
+    height: 74px;
+}
+#divSocialNetworks{
+    display: flex;
+    justify-content: space-between;
+  /*  align-items: center;*/
+    width: 379px;
+    height: 30px;
+}
+#card-border
+{
+    
+    position: relative;
+    width: 624px;
+    height: 369px;
+    left: 364px;
+    top: 517px;
+    background-color: yellow;
+    margin:14px;
+    border-radius: 0px;
+    clip-path: polygon(7% 0, 100% 0, 100% 86%, 93% 100%, 0 100%, 0 14%);
+}
+#card-border>div:first-child{
+    width: 484px;
+    height: 126px;
+    font-family: Archangelsk;   
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 70px;
+
+}
+#card-border>div:last-child{
+    width: 272px;
+    height: 78px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 70px;
+    background-color: black;        
+    color: yellow;   
+}
+#card-border>div:last-child>p{
+    padding-top: 18px;
+}
+#slogan{
+    width: 620px;
+    height: 126px;
+    margin-top: 70px;
+    margin-left: 36px;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+}
+#descriptionGame{
+    width: 788px;
+    height: 158px;
+    margin-top: 25px;
+    margin-left: 36px;
+    margin-bottom: 16px;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+
+}
+#descriptionGame span{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    color: #00bfff;
+
+}
+.screenshotImg{
+    margin: 16px;
+    clip-path: polygon(7% 0, 100% 0, 100% 86%, 93% 100%, 0 100%, 0 14%);
+}
+#screen1, #screen3{
+    margin-left: 32px;
+ 
+}
+#screen3{
+    margin-left: 32px;
+    clip-path: polygon(3.5% 0, 100% 0, 100% 93%, 96.5% 100%, 0 100%, 0 7%);
+}
+#barreir1{
+    margin: 0px;
+    padding: 0px;
+}
+#divBlack{
+    display: flex;
+    width: 1024px;
+    height: 1023px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -10px;
+}
+#divPromotion{
+    width: 480px;
+    height: 1000px;
+    margin-left: 36px;
+    padding-top: 18px;
+}
+#divPromotion h2{
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    color: white;
+}
+#divPromotion p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: white;
+}
+#divPromotion span{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    color: #00BFFF;
+}
+#form1{
+    width: 460px;
+    height: 383px;
+    margin-top: 63px;
+   /* margin-left: 36px;*/
+    gap: 0px;
+    opacity: 0px;
+}
+#form1 .inputText{
+
+    width: 460px;
+    height: 35px;
+    margin-top: 35px;
+    background-color: black;
+    border:none;
+    border-Bottom: 1px solid white;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: left;
+
+}
+#form1 #blockFile{
+
+    width: 460px;
+    height: 120px;
+    margin-top: 35px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    border-style:  dashed;
+    border-color: white;
+   /* opacity: 0px;*/
+    color: white;
+}
+#form1 #blockFile p{
+   font-family: Roboto;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 21.09px;
+   text-align: center;
+   margin-top: 50px;
+   text-decoration: underline;
+
+}
+#divConsole{
+    float: right;
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 96px;
+    margin-right: 36px;
+}
+#divConsole img:last-of-type{
+    margin-top: -50px;
+}
