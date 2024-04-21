@@ -268,12 +268,13 @@ label span:not(#checkboxText) {/* <-- стилизируем новый */
     margin-top: -50px;
 }
 #divYellow{
+    display: flex;
     width: 1024px;
     height: 796px;
     background-color: yellow;
     margin-top: -10px;
 }
-#divYellow div:first-of-type{
+#divYellow div:first-child{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -281,10 +282,109 @@ label span:not(#checkboxText) {/* <-- стилизируем новый */
     width: 460px;
     height: 571px;
 }
-#divYellow div:first-of-type img:first-of-type{
+#divYellow div:first-child img:first-child{
     margin-top: 112px;
 }
-#divYellow div:first-of-type img{
+#divYellow div:first-child img{
     margin-top: 25px;
 }
 
+
+#divYellow>div:last-child{
+    width: 460px;
+    height: 656px;
+    margin-left: 32px;
+}
+#divYellow>div:last-child .itemYellow p{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+#divYellow div:last-child h1{
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+
+}
+#divYellow div:last-child img{
+    position: relative;
+    top: 10px;
+}
+#divYellow div:last-child p{
+/*    height: 20px;*/
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+#divYellow div:last-child button{
+    width: 194px;
+    height: 59px;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    background-color: black;
+    color: yellow;
+}
+#divBuy{
+    display: flex;
+    width: 1024px;
+    height: 717px;
+    background-color: black;
+}
+#divBuy #buyOffer{
+    margin-left: 32px;
+}
+#divBuy #buyOffer div:first-child{
+    width: 624px;
+    height: 126px;
+    margin-top: 70px;
+    ;
+}
+#divBuy #buyOffer h1{
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63.3px;
+    text-align: left;
+    color: white;
+}
+#divBuy #buyOffer h2{
+    color: #52BEDC;
+}
+#divBuy #buyOffer .itemBlack img{
+    position: relative;
+    top: 10px;
+}
+#divBuy #buyOffer .itemBlack{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    color: white;
+}
+#divBuy #buyOffer h2:last-child{
+   margin-top: 70px;
+}
+#divBuy #divPlatformImage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  /*  align-content: flex-start;*/
+    width: 319px;
+    height: 134px;
+}
+footer{
+    width: 1024px;
+    height: 140px;
+    background-color: white;
+}
