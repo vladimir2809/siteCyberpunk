@@ -54,7 +54,7 @@ body {
     padding-top: 70px;
 
 }
-#card-border>div:last-child{
+#card-border>a>div:last-child{
     width: 272px;
     height: 78px;
     font-family: Roboto;
@@ -66,7 +66,10 @@ body {
     background-color: black;        
     color: yellow;   
 }
-#card-border>div:last-child>p{
+#card-border>a{
+    text-decoration: none;
+}
+#card-border>a>div:last-child>p{
     padding-top: 18px;
 }
 #slogan{
@@ -387,4 +390,33 @@ footer{
     width: 1024px;
     height: 140px;
     background-color: white;
+}
+footer>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 13px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    /*text-align: left;*/
+
+}
+footer>div:first-child p{
+    margin-top: 28px;
+}
+footer>div:last-child{  
+    width: 1024px;
+    height: 40px;
+    background-color:black;
+}
+footer>div:last-child p{
+    padding-top: 13px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: center;
+    color: white;
 }
