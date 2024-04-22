@@ -9,6 +9,32 @@ body {
 #headImg{
     height: 1000px;
 }
+/*CARUSEL BEGIN*/
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+ 
+.carousel-inner {
+  display: flex;
+  width: 300%;
+  height: 300%;
+  transition: transform 0.5s;
+}
+ 
+.carousel-item {
+  flex: 1;
+  text-align: center;
+}
+ 
+.carousel-item img {
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
+}
+/*CARUSEL END*/
 #divHead{
     display: flex;
     justify-content: space-between;
@@ -17,10 +43,12 @@ body {
     height: 74px;
     margin-top: -980px;
     margin-left: 36px;
+    z-index: 100;
 }
 #divLogo{
     width: 296px;
     height: 74px;
+    z-index: 100;
 }
 #divSocialNetworks{
     display: flex;
@@ -28,6 +56,7 @@ body {
   /*  align-items: center;*/
     width: 379px;
     height: 30px;
+    z-index: 100;
 }
 #card-border
 {
